@@ -1,0 +1,106 @@
+.banner {
+  height: 100vh;
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  top: 34%;
+  left: 34%;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+  padding-top: 16px;
+}
+
+.container h2 {
+  font-size: 24px;
+  padding: 10px 0px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.container p {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: lighter;
+}
+
+a {
+  background-image: linear-gradient(rgba(100, 60, 88, 0.7), rgba(82, 54, 128, 0.7));
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-style: italic;
+  padding: 4px 8px;
+  margin: 16px 0px;
+}
+
+a:hover {
+  background-image: linear-gradient(rgba(57, 32, 50, 0.7), rgba(51, 41, 67, 0.7));
+}
+
+#second-paragraph {
+  padding-bottom: 10px;
+}
+
+#final-title {
+  padding-top: 16px;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+  .banner-content {
+    top: 30%;
+    left: 28%;
+  }
+}
+
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+  .banner-content {
+    top: 26%;
+    left: 22%;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+  .banner-content {
+    top: 22%;
+    left: 14%;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+  .banner-content {
+    top: 18%;
+    left: 3%;
+  }
+}
+
+
+/* Make sure to resize the container for all other screen sizes (`576px`, `768px`, `992px` and `1200px`). */
